@@ -1,0 +1,27 @@
+Buscar la mejor oferta académica disponible en función de criterios como costo, ubicación y calidad. Estos algoritmos se pueden usar en la optimización o búsqueda del mejor programa para un estudiante.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Algoritmo Hill Climbing
+Este algoritmo trata de mejorar la solución actual de manera iterativa, moviéndose siempre hacia una solución vecina que es mejor, hasta que ya no pueda encontrar una mejor solución.
+
+Contexto JDC:
+Supongamos que estamos buscando el mejor programa académico con base en la ubicación cercana y costo más bajo.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Algoritmo Beam Search
+Este algoritmo explora múltiples soluciones simultáneamente, manteniendo un número limitado de mejores soluciones candidatas.
+
+Contexto JDC:
+Supongamos que estamos buscando los mejores programas académicos considerando costo, distancia, y calidad, y queremos explorar varias opciones a la vez.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Algoritmo A*
+Este algoritmo se utiliza para encontrar la mejor solución posible optimizando un costo total (distancia y heurística) y es ideal para búsquedas informadas.
+
+Contexto JDC:
+Imagina que un estudiante busca el programa más cercano en la JDC que ofrezca la mejor combinación entre costo, distancia y calidad.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Hill Climbing: Avanza hacia una solución localmente mejor, ideal cuando no se conocen muchas opciones.
+Beam Search: Explora varias soluciones simultáneamente, limitando la cantidad de candidatos en cada iteración.
+A*: Encuentra la solución más óptima con una función heurística informada, ideal para búsquedas complejas.
